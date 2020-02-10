@@ -1,0 +1,16 @@
+#!python
+
+import sys
+from topsis_nishant_76 import topsis_nish
+
+arguments = sys.argv[1:]
+assert len(arguments) == 3, "Wrong number of arguments provided"
+
+filename_in = arguments[0]
+weights = arguments[1]
+ff = arguments[2]
+assert filename_in, "Input CSV filename must be provided"
+assert weights, "weights must be provided"
+assert '.csv' in filename_in, "File extension must be .csv"
+
+topsis_nish(filename_in,weights,ff)
