@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="topsis_nishant_76", # Replace with your own username
-    version="12.1.5",
+    version="12.1.6",
     author="Nishant Goel",
     author_email="ngoel_be17@thapar.edu",
     description="A topsis Implementation in python for multi-criteria decision making",
